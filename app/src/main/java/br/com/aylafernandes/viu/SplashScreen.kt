@@ -34,7 +34,7 @@ class SplashScreen : AppCompatActivity() {
 
         Handler().postDelayed(Runnable {
             // Após o tempo definido irá executar a próxima tela
-            val intent = Intent(this@SplashScreen,  MenuActivity::class.java)
+            val intent = Intent(this@SplashScreen,  LoginActivity::class.java)
             intent.flags = Intent.FLAG_ACTIVITY_NO_ANIMATION
             startActivity(intent)
             this@SplashScreen.finish()
@@ -43,6 +43,7 @@ class SplashScreen : AppCompatActivity() {
 
 
      }
+
 
 
 }

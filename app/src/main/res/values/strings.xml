@@ -1,4 +1,16 @@
 <resources>
     <string name="app_name">viu</string>
     <string name="title_activity_maps">Map</string>
+    <string name="title_activity_menu">MenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_login">Viu</string>
+
+    <string name="facebook_app_id">1741354109290514</string>
+    <string name="fb_login_protocol_scheme">fb1741354109290514</string>
+
 </resources>
